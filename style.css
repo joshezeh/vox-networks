@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #111111;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.header {
+  background: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #111111;
+  font-weight: 500;
+}
+
+.hero {
+  padding: 80px 0;
+  background: #f7f9fc;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  margin: 20px 0;
+  color: #555555;
+  line-height: 1.5;
+}
+
+.buttons .btn {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 12px 22px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.primary {
+  background: #1DA1F2;
+  color: white;
+}
+
+.secondary {
+  border: 1px solid #1DA1F2;
+  color: #1DA1F2;
+}
+
+.hero-visual .abstract-box {
+  width: 100%;
+  height: 280px;
+  background: linear-gradient(135deg, #1DA1F2, #0B0E11);
+  border-radius: 20px;
+}
+
+.services {
+  padding: 70px 0;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #f5f5f5;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.about {
+  padding: 70px 0;
+  background: #f9fafc;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-list p {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.contact {
+  padding: 70px 0;
+}
+
+.contact form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #dddddd;
+}
+
+.contact button {
+  padding: 14px;
+  background: #0B0E11;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.footer {
+  background: #0B0E11;
+  color: white;
+  padding: 40px 0;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.footer a {
+  color: #cccccc;
+  text-decoration: none;
+}
